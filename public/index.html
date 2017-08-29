@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)https://m.money.yandex.ru/new -->
+<html class="ua_js_yes">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Demo</title>
+	<link rel="stylesheet" href="common.css">
+	<script type="text/javascript">
+		if ('serviceWorker' in navigator) {
+		  // Note: you dont need { insecure: true } if you're using this example and own a legitimate certificate
+		  // navigator.serviceWorker.register('/sw.js', { insecure: true })
+		  navigator.serviceWorker.register('sw.js')
+		    .then(function(reg) {
+
+		    if(reg.installing) {
+		      console.log('SW installing');
+		    } else if(reg.waiting) {
+		      console.log('SW installed');
+		    } else if(reg.active) {
+		      console.log('SW active');
+		    }
+
+		  }).catch(function(error) {
+		    // registration failed - we need to handle that somehow
+		    console.log(error);
+		  });
+		 };
+	</script>
+</head>
+<body>
+	<div class="logo"></div>
+	<script src="./jquery.min.js" defer></script>
+	<script src="./lodash.min.js" defer></script>
+</body>
+</html>
