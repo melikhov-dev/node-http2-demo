@@ -3,9 +3,10 @@ const fs = require('fs');
 const url = require('url');
 const path = require('path');
 
+// SSL Certificate
 const options = {
-	key: fs.readFileSync('/etc/nginx/ssl/key.pem'),
-	cert: fs.readFileSync('/etc/nginx/ssl/cert.pem')
+	key: fs.readFileSync('key.pem'),
+	cert: fs.readFileSync('cert.pem')
 };
 
 const mimeType = {

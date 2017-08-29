@@ -1,11 +1,11 @@
 # node-nttp2-demo
 Simple demo Node.js + HTTP2 + Service Workers
 
-Node >=8.4.0 required.
+Node >=8.4.0 require.
 
 Start
 
-```node --expose-http2 server.js```
+```npm start```
 
 Open Chrome with `--ignore-certificate-errors`:
 

@@ -1,0 +1,25 @@
+{
+  "name": "nttp2-demo",
+  "version": "1.0.0",
+  "description": "Simple demo Node.js + HTTP2 + Service Workers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --expose-http2 server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amel-true/node-nttp2-demo.git"
+  },
+  "keywords": [
+    "Node.Js",
+    "HTTP/2"
+  ],
+  "engines" : { "node" : ">=8.4.0" },
+  "author": "Andrey Melikhov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amel-true/node-nttp2-demo/issues"
+  },
+  "homepage": "https://github.com/amel-true/node-nttp2-demo#readme"
+}
