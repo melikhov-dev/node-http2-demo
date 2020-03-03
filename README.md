@@ -1,4 +1,4 @@
-# node-nttp2-demo
+# node-http2-demo
 Simple demo Node.js + HTTP2 + Service Workers
 
 Node >=8.4.0 require.
